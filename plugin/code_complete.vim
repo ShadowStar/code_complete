@@ -1,8 +1,8 @@
 "==================================================
 " File:         code_complete.vim
 " Brief:        function parameter complete, code snippets, and much more.
-" Author:       ShadowStar, <orphen.leiliu@gmail.com>
-" Last Change:  11/07/2020 19:26:27
+" Author:       Mingbai <mbbill AT gmail DOT com>
+" Last Change:  2009-06-09 00:09:03
 " Version:      2.9
 "
 " Install:      1. Put code_complete.vim to plugin
@@ -219,7 +219,7 @@ function! SwitchRegion()
     else
         if s:doappend == 1
             if g:completekey == "<tab>"
-                return "\<C-n>"
+                return "\<tab>"
             endif
         endif
         return ''
