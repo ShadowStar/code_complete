@@ -1,8 +1,8 @@
 "==================================================
 " File:         code_complete.vim
 " Brief:        function parameter complete, code snippets, and much more.
-" Author:       Mingbai <mbbill AT gmail DOT com>
-" Last Change:  2009-06-09 00:09:03
+" Author:       ShadowStar, <orphen.leiliu@gmail.com>
+" Last Change:  11/07/2020 22:22:52
 " Version:      2.9
 "
 " Install:      1. Put code_complete.vim to plugin
@@ -63,7 +63,7 @@ endif
 " Variable Definitions: {{{1
 " options, define them as you like in vimrc:
 if !exists("g:completekey")
-    let g:completekey = "<tab>"   "hotkey
+    let g:completekey = "<c-]>"   "hotkey
 endif
 
 if !exists("g:rs")
